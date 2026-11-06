@@ -4,6 +4,18 @@
 # should build pages for, and indicates metadata such as tags, creation date and
 # authors for each page.
 
+- title: Cut text-to-SQL prompt tokens by sending only the tables a question needs
+  path: examples/third_party/schemagate/text_to_sql_schema_selection.ipynb
+  slug: text-to-sql-schema-selection
+  description: Pick the few tables a question needs with schemagate (offline, no model call), count the prompt tokens saved against the full schema with tiktoken, and have the model write SQL from the selection with the Responses API.
+  date: 2026-11-05
+  authors:
+    - ashishsinha1602
+  tags:
+    - prompt-optimization
+    - cost-management
+    - responses
+
 - title: Harness-aware evaluation of plugins
   path: examples/partners/harness_aware_plugin_evals/harness_aware_plugin_evals.ipynb
   slug: harness-aware-plugin-evals
